@@ -11,7 +11,7 @@ OS : Ubuntu 16.04
  `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`
  `sudo apt-get update`
 
-## install docker community edition
+## Install docker community edition
 
  `apt-cache policy docker-ce`
  `sudo apt-get install -y docker-ce`
