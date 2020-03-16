@@ -28,4 +28,3 @@ Install NodeJS server with sample application using dockerfile
   
   # curl -i localhost:49160 
 
-
