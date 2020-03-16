@@ -8,16 +8,16 @@
 
 - Install docker if docker is not installed. 
 
- `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` <br />
- `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`<br />
- `sudo apt-get update`
+  `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` <br />
+  `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`<br />
+  `sudo apt-get update`
 
 - Install docker community edition
 
- `apt-cache policy docker-ce` <br />
- `sudo apt-get install -y docker-ce` <br />
+  `apt-cache policy docker-ce` <br />
+  `sudo apt-get install -y docker-ce` <br />
 
- `sudo systemctl status docker`
+  `sudo systemctl status docker`
 
 - Build your nodejs docker image with dockerfile, nodejs samples application 
 
