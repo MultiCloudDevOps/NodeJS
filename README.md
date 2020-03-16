@@ -14,18 +14,18 @@ OS : Ubuntu 16.04
 
 - Install docker community edition
 
- `apt-cache policy docker-ce`
- `sudo apt-get install -y docker-ce`
+ `apt-cache policy docker-ce` <br />
+ `sudo apt-get install -y docker-ce` <br />
 
  `sudo systemctl status docker`
 
 - Build your nodejs docker image with dockerfile, nodejs samples application 
 
-  `docker build -t <your username>/node-web-app .`
+  `docker build -t <your username>/node-web-app .` <br />
 
-  `docker images`     # to view newly created nodejs docker image. 
+  `docker images`     # to view newly created nodejs docker image.  <br />
   
-  `docker run -p 49160:8080 -d <your username>/node-web-app`    # 49160 external access, 8080 internal access for nodejs.`
+  `docker run -p 49160:8080 -d <your username>/node-web-app`    # 49160 external access, 8080 internal access for nodejs.` <br />
   
   `curl -i localhost:49160`
 
