@@ -1,5 +1,5 @@
 
-# Install NodeJS server with sample application using dockerfile #
+## Install NodeJS server with sample application using dockerfile #
 
 
 - Pre-requisites 
@@ -9,7 +9,7 @@ OS : Ubuntu 16.04
 - Install docker if docker is not installed. 
 
  `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` <br />
- `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`
+ `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`<br />
  `sudo apt-get update`
 
 - Install docker community edition
