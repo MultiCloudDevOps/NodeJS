@@ -4,7 +4,7 @@
 
 - Pre-requisites 
 
-OS : Ubuntu 16.04
+  OS : Ubuntu 16.04
 
 - Install docker if docker is not installed. 
 
